@@ -6,8 +6,8 @@ $(document).ready(function(){
 	});
 
 	$('.wf-grid > div').on('click', function(){
-		$(this).find('ul').slideToggle('200');
-		$(this).toggleClass('widget-open');
+		$(this).find('ul').slideDown('200');
+		$(this).addClass('widget-open');
 	});
 
 	$('.wf-grid').masonry({
