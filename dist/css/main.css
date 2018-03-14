@@ -1157,6 +1157,9 @@ img {
     .footer .footer-call a:hover {
       background: #af1318; }
 
+.media-body {
+  padding-left: 10px; }
+
 /*==========  Desktop First  ==========*/
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1250px) {
